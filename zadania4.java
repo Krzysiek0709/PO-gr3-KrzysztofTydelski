@@ -11,7 +11,7 @@ public class zadania4 {
     public static void main(String[] args) throws FileNotFoundException {
         //a
 //        String s = "Ciocia zrobila ciasto o smaku ciastek";
-//        char c = 'e';
+//        char c = 'c';
 //        System.out.println("w napisie " + s+ " znak " + c + " wystepuje tyle razy: " + countChar(s, c));
 //        //b
 //        String s = "hahahahahahaha";

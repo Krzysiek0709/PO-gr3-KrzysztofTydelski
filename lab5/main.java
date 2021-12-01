@@ -2,10 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 
-public class zadania5 {
-
-
-
+public class main {
 
 
     public static void main(String[] args) {

@@ -8,7 +8,7 @@ import static java.lang.Math.sqrt;
 //1a
 
 
-//public class Zadania_2 {
+//public class main {
 //    public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
 //        int wynik = 0;

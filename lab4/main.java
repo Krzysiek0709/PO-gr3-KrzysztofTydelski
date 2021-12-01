@@ -6,7 +6,7 @@ import static java.lang.Character.*;
 
 
 
-public class zadania4 {
+public class main {
 
     public static void main(String[] args) throws FileNotFoundException {
         //a

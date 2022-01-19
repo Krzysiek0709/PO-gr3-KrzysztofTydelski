@@ -27,7 +27,7 @@ public class Main
         System.out.println(pracownik.getPensja());
         System.out.println(pracownik.getDataZatrudnienia());
 
-        Student student = new Student(imiona, nazwisko, plec, dataUrodzenia, "Informatyka", 4.5);
+        Student student = new Student(imiona, nazwisko, plec, dataUrodzenia, "Filologia", 4.5);
         System.out.println(student.getKierunek());
         System.out.println(student.getSredniaOcen());
         student.setSredniaOcen(4.0);

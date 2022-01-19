@@ -6,8 +6,8 @@ import java.util.Iterator;
 public class Main
 {
     public static void main(String[] args) {
-        String[] imiona = {"Arek", "Second name"};
-        String nazwisko = "Kowalski";
+        String[] imiona = {"Krzysztof", "Second name"};
+        String nazwisko = "Tydelski";
         boolean plec = true;
         LocalDate dataUrodzenia = LocalDate.of(2000, 10, 28);
         Osoba osoba = new Osoba(imiona, nazwisko, plec, dataUrodzenia);
@@ -27,7 +27,7 @@ public class Main
         System.out.println(pracownik.getPensja());
         System.out.println(pracownik.getDataZatrudnienia());
 
-        Student student = new Student(imiona, nazwisko, plec, dataUrodzenia, "Filologia", 4.5);
+        Student student = new Student(imiona, nazwisko, plec, dataUrodzenia, "Informatyka", 4.5);
         System.out.println(student.getKierunek());
         System.out.println(student.getSredniaOcen());
         student.setSredniaOcen(4.0);

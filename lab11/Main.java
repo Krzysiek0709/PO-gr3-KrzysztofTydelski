@@ -5,7 +5,7 @@ public class Main
 {
     public static void main(String[] args)
     {
-        System.out.println("========================= 3 =============================================");
+        System.out.println("3");
         ArrayList<Integer> integers = new ArrayList<Integer>(List.of(10, 2, 4, 4, 1, 6, 7, 3 , 9, 8));
         ArrayList<Integer> integersSorted = (ArrayList<Integer>) integers.clone();
         Collections.sort(integersSorted);
@@ -40,7 +40,7 @@ public class Main
                         datesSorted.toArray().length,
                         LocalDate[].class)));
 
-        System.out.println("========================= 4 =============================================");
+        System.out.println("\n4++++++++++++++++++++++++++++++++");
         System.out.println(ArrayUtil.binSearch(
                 Arrays.copyOf(integersSorted.toArray(),
                 integersSorted.toArray().length,
@@ -54,7 +54,7 @@ public class Main
                 LocalDate.of(113, 4, 3)
         ));
 
-        System.out.println("========================= 5 =============================================");
+        System.out.println("\n5++++++++++++++++++++++++++++++++");
         Integer[] integers5 = Arrays.copyOf(integers.toArray(), integers.toArray().length, Integer[].class);
         LocalDate[] dates5 = Arrays.copyOf(dates.toArray(), dates.toArray().length, LocalDate[].class);
         ArrayUtil.selectionSort(integers5);
@@ -69,7 +69,7 @@ public class Main
             System.out.print(it.next() + ", ");
         }
 
-        System.out.println("\n========================= 6 =============================================");
+        System.out.println("\n6++++++++++++++++++++++++++++++++");
         Integer[] integers6 = Arrays.copyOf(integers.toArray(), integers.toArray().length, Integer[].class);
         LocalDate[] dates6 = Arrays.copyOf(dates.toArray(), dates.toArray().length, LocalDate[].class);
         ArrayUtil.mergeSort(integers6);
